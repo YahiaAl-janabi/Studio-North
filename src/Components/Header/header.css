@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Brush King";
+  src: local("Brush King"),
+    url(/src/Fonts/BrushKing/Brush\ King.otf) format("otf");
+}
+.header {
+  display: grid;
+  background-color: #333333;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  color: white;
+}
+.title {
+  grid-column: 1 / 13;
+  background-color: brown;
+  font-family: "Brush King";
+}
