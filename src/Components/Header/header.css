@@ -7,12 +7,14 @@
   display: grid;
   background-color: #333333;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   color: white;
 }
 .title {
+  text-align: center;
+  letter-spacing: 0.2rem;
   padding: 0.5rem;
-  grid-column: 1 / 13;
+  grid-column: 1 / 3;
   background-color: brown;
   font-family: "Brush King";
 }
