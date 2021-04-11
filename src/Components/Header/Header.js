@@ -13,6 +13,9 @@ const Header = () => {
             <li>Contact</li>
           </ul>
         </div>
+        <div className="bronze"></div>
+        <div className="silver"></div>
+        <div className="gold"></div>
       </div>
     </div>
   );
