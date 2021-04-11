@@ -1,4 +1,6 @@
 .header {
+  width: 90%;
+  margin: auto;
   display: grid;
   background-color: #333333;
   grid-template-columns: repeat(12, 1fr);
@@ -13,8 +15,8 @@
 }
 
 @font-face {
-  font-family: "coolvetica rg";
-  src: local("coolvetica rg"),
+  font-family: "coolvetica";
+  src: local("coolvetica"),
     url(/src/Fonts/Coolvetica/coolvetica\ rg.ttf) format("ttf");
 }
 
@@ -22,6 +24,7 @@
   text-align: left;
   letter-spacing: 0.2rem;
   padding: 0.5rem;
+  padding-left: 2rem;
   grid-column: 1 /5;
   background-color: brown;
   font-family: "Brush King";
@@ -35,15 +38,15 @@
 }
 
 .nav ul {
-  font-family: "coolvetica rg";
+  font-family: coolvetica;
   float: right;
   list-style: none;
 }
 
 .nav ul li {
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
   font-size: 1rem;
   margin-right: 2rem;
-  padding-top: 0.4rem;
+  padding-top: 0.7rem;
   float: left;
 }
