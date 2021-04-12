@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import tabletop from "./tabletop.jpg";
 
 const Header = () => {
   return (
@@ -13,9 +14,13 @@ const Header = () => {
             <li>Contact</li>
           </ul>
         </div>
-        <div className="bronze"></div>
-        <div className="silver"></div>
-        <div className="gold"></div>
+        <div className="tabletopcontainer">
+          <div className="tabletopcard">
+            <img className="tabletopimg" src={tabletop} alt="tabletop" />
+          </div>
+        </div>
+        <div className="paradecontainer"></div>
+        <div className="showcasecontainer"></div>
       </div>
     </div>
   );
